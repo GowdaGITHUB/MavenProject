@@ -16,10 +16,10 @@ import Page.LoginPage;
 public class DemoA extends BaseTest{
 	@Test
 	public void testA() throws InterruptedException{
-	//Take the input data from excel file
+		//Take the input data from excel file
 		String uName=TestUtility.getXLData(DATA_PATH, "DemoA",1,0);
 		String pWord=TestUtility.getXLData(DATA_PATH, "DemoA",1,1);
-		
+
 		String homePageURL=TestUtility.getXLData(DATA_PATH, "DemoA",1,2);
 		String loginPageURL=TestUtility.getXLData(DATA_PATH, "DemoA",1,3);
 		//Enter the valid user name,password click login
@@ -29,7 +29,7 @@ public class DemoA extends BaseTest{
 		l.clickLogin();
 		//verify that Dashboard Page is Displayed
 		WebGeneric.vrifyURL(driver, lngETO, homePageURL);
-		
+
 		//Click Welcome-->logout
 		DashboardPage dp=new DashboardPage(driver);
 		dp.clickWelcome();
