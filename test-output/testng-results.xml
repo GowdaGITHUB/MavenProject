@@ -17,12 +17,12 @@
       <![CDATA[TestName:testA Status:PASS]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22821" started-at="2018-10-12T03:26:28Z" finished-at="2018-10-12T03:26:51Z">
+  <suite name="Suite" duration-ms="114823" started-at="2018-10-16T18:05:27Z" finished-at="2018-10-16T18:07:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22821" started-at="2018-10-12T03:26:28Z" finished-at="2018-10-12T03:26:51Z">
+    <test name="Test" duration-ms="114823" started-at="2018-10-16T18:05:27Z" finished-at="2018-10-16T18:07:21Z">
       <class name="Script.DemoA">
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Script.DemoA@2a5ca609]" name="openApp" is-config="true" duration-ms="11129" started-at="2018-10-12T08:56:29Z" finished-at="2018-10-12T08:56:40Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Script.DemoA@3bfdc050]" name="openApp" is-config="true" duration-ms="63668" started-at="2018-10-16T23:35:27Z" finished-at="2018-10-16T23:36:30Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:Script.DemoA@2a5ca609]" name="testA" duration-ms="11660" started-at="2018-10-12T08:56:40Z" finished-at="2018-10-12T08:56:51Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:Script.DemoA@3bfdc050]" name="testA" duration-ms="51031" started-at="2018-10-16T23:36:30Z" finished-at="2018-10-16T23:37:21Z">
           <reporter-output>
             <line>
               <![CDATA[Req Page is Displayed]]>
@@ -54,11 +54,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.DemoA@2a5ca609]" name="closeApp" is-config="true" duration-ms="1" started-at="2018-10-12T08:56:51Z" finished-at="2018-10-12T08:56:51Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.DemoA@3bfdc050]" name="closeApp" is-config="true" duration-ms="0" started-at="2018-10-16T23:37:21Z" finished-at="2018-10-16T23:37:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testA status=SUCCESS method=DemoA.testA()[pri:0, instance:Script.DemoA@2a5ca609] output=Req Page is Displayed]]]>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=DemoA.testA()[pri:0, instance:Script.DemoA@3bfdc050] output=Req Page is Displayed]]]>
               </value>
             </param>
           </params>
@@ -69,6 +69,6 @@
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- Script.DemoA -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
